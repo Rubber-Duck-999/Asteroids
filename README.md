@@ -15,8 +15,8 @@ I will be using the soruce code ideas to add new features
 
 ## Screenshots
 
-![Game](.game.png)
+![Game](game.png)
 
 -------
 
-![Lose](.lose.png)
+![Lose](lose.png)
