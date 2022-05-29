@@ -3,7 +3,7 @@ from asteroid import Asteroid
 from spaceship import Spaceship
 from utils import get_random_position ,load_sprite, print_text
 
-class SpaceRocks:
+class Asteroids:
     MIN_ASTEROID_DISTANCE = 250
     MIN_SPACE_BETWEEN = 50
 
@@ -43,7 +43,7 @@ class SpaceRocks:
 
     def _init_pygame(self):
         pygame.init()
-        pygame.display.set_caption("Space Rocks")
+        pygame.display.set_caption("Asteroids")
 
     def _handle_input(self):
         for event in pygame.event.get():
